@@ -1,19 +1,21 @@
-.container {
+.container{
     margin-bottom: 100px;
 }
-.orange-bg{
-    background-color: #fceac8;
+.white-bg{
+    background-color:white;
     border-radius: 10px;
-
+   
 }
+
 .carousel-item{
     padding: 20px 40px;
+    
 }
 .price{
     color: #ff136f;
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100% );
+    background-image: linear-gradient(to right,rgb(46, 45, 45)0%,rgb(15, 5, 5) );
     color: #fff;
     border:none;
     border-radius: 8px;
@@ -21,26 +23,33 @@
     cursor: pointer;
 }
 .cat1,.cat2,.cat3{
-    padding: 10px 30px;
+    border: none;
     border-radius: 10px;
+    box-shadow:10PX 10px 40px lightgrey;
+    height: 180px;
+    width: 160px;
+   
 }
 .cat1{
-    background-color: orange;
+    margin-top: 120px;
 }
 .cat2{
-    background-color: orchid;
+   margin-bottom: 40px;
 }
+
 .cat3{
-    background-color: blue;
+    margin-top: 50px;   
 }
-.catagories h1{
-color: white;
-font-size:large;
+.cat4 img{
+    width: 500px;
+   
+}
+.Catagories h1{
+    text-align: center;
+    font-size:medium;
 }
  
-.catagories img{
-    width: 100px;
-}
+
 .card{
     border: none;
     border-radius: 10px;
@@ -49,23 +58,8 @@ font-size:large;
 .card-footer{
     background-color: white;
     border-top: none;
-}
-#Subscribe{
-    height: 300px;
-}
-#Subscribe h6{
-    color: gray;
-}
-.new-button{
-    background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100% );
-    color: #fff;
-    border:none;
-    border-radius: 8px;
-    padding: 9px 25px;
-    cursor: pointer;
-    width:50%;
-}
+ }
 
 footer{
-    text-align: center;
+    text-align: right;
 }
